@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Esm test</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <script>
+        window.addEventListener("load", () => {
+                let win = nw.Window.get();
+                win.showDevTools();
+            });
+        </script>
+</head>
+
+<body>
+    <div>
+        <h1>Esm test</h1>
+    </div>
+
+    <script type="module">
+        import {f1} from './src/t1.js'
+        f1();
+        import {f2} from './src/t2.js'
+        alert(f2());        
+    </script>
+</body>
