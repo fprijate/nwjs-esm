@@ -1,5 +1,5 @@
 const path=require('path');
-console.log('module f1');
+console.log('module t1');
 
 export function f1() {
     console.log('src/f1');
