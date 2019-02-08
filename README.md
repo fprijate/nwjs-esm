@@ -3,5 +3,5 @@
 Simple nwjs test using [esm.js](https://github.com/standard-things/esm).
 
 Usage: 
-* npm init
+* npm install
 * run with nw
