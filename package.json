@@ -1,5 +1,5 @@
 {
-    "name": "edm_test",
+    "name": "esm_test",
     "version": "1.0.0",
     "main": "index.html",
     "node-main": "bg/index.js",
