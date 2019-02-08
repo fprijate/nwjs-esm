@@ -3,7 +3,6 @@
     "version": "1.0.0",
     "main": "index.html",
     "node-main": "bg/index.js",
-   
     "author": "Franček Prijatelj <prijatelj.francek@gmail.com>",
     "license": "MIT",
     "chromium-args": "--mixed-context ",
